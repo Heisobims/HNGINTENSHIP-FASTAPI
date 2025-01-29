@@ -1,4 +1,4 @@
-"""
+`"""
 This FastAPI application provides an endpoint that returns information including email, current datetime, and GitHub URL.
 """
 
