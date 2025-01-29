@@ -19,8 +19,9 @@ def get_info():
     """
     Returns information including email, current datetime, and GitHub URL.
     """
-    return {
-        "email": "heyobims@gmail.com",
-        "current_datetime": datetime.now(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
+    response = {
+            "email": "Heisobims@gmail.com",
+            "current_datetime": datetime.now(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
     }
+    return response
