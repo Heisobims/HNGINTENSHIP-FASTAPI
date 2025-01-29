@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+timezone = pytz.timezone("Africa/Lagos")
 
 @app.get("/")
 def get_info():
@@ -22,7 +22,7 @@ def get_info():
     """
     response = {
         "email": "heyobims@gmail.com",
-        "current_datetime": datetime.now(pytz.utc).isoformat(),
+        "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
     }
     return response
