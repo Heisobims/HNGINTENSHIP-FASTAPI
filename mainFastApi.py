@@ -15,7 +15,7 @@ app.add_middleware(
 
 
 
-@app.get("/userinfo")
+@app.get("/")
 def get_info():
     return {
         "email": "heyobims@gmail.com",
