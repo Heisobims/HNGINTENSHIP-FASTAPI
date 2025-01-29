@@ -17,9 +17,13 @@ app.add_middleware(
 
 @app.get("/")
 def get_info():
-    return {
+    """
+    Returns information including email, current datetime, and GitHub URL.
+    """
+    response = {
         "email": "heyobims@gmail.com",
         "current_datetime": datetime.now(pytz.utc).isoformat(),
         "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
     }
+    return response
     
