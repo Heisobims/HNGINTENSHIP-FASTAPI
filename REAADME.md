@@ -1,8 +1,9 @@
 # HNG12 Stage 0 - Public API
 
 ## Overview
-This is a simple public API built using **FastAPI** for the **HNG12 Internship Stage 0 Task**. The API provides basic information in JSON format, including:
-- Your registered email address.
+This is a simple public API built using **FastAPI** for the **HNG12 Internship Stage 0 Task**. 
+The API provides basic information in JSON format, including:
+- Registered email address.
 - The current datetime in **ISO 8601** format (UTC).
 - The GitHub repository URL of this project.
 
@@ -24,6 +25,10 @@ This is a simple public API built using **FastAPI** for the **HNG12 Internship S
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
 }
+
+## Example Usuage
+
+ https://hng.tech/hire/python-developers
 ```
 
 ## Getting Started
@@ -85,6 +90,8 @@ Contributions are welcome! Follow these steps to contribute:
 ## Useful Resources
 - **FastAPI Documentation**: [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
 - **Python Developers Hiring**: [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers)
+
+
 
 ## License
 This project is licensed under the Apache 2.0.
