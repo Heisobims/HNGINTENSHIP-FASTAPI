@@ -121,20 +121,6 @@ Before submission, ensure the API is thoroughly tested:
 
 ---
 
-## Submission
-
-### Steps to Submit
-1. Host the API on a publicly accessible platform (e.g., Render).
-2. Double-check all requirements and acceptance criteria.
-3. Test the API thoroughly.
-4. Submit your task through the designated submission form.
-
-### Deadline
-- Submission Deadline: Fri, Jan 31st - 11:59pm GMT +1 (WAT).
-- Late submissions will not be entertained.
-
----
-
 ## Repository Information
 - GitHub Repository: https://github.com/heisobims/HNGINTENSHIP-FASTAPI
 - **Visibility**: Public
