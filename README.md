@@ -23,7 +23,7 @@ The API is built using Python with the FastAPI framework and deployed to a publi
 
 ### Endpoint
 - Method: `GET`
-- URL: `https://hng-stage0-backend.onrender.com`
+- URL: `https://hngintenship-fastapi.onrender.com`
 
 ### Response Format (200 OK)
 The API returns a JSON response with the following structure:
@@ -38,7 +38,7 @@ The API returns a JSON response with the following structure:
 ### Example Usage
 1. Make a `GET` request to the API endpoint:
    ```bash
-   curl -X GET https://hng-stage0-backend.onrender.com
+   curl -X GET https://hngintenship-fastapi.onrender.com
    ```
 2. Sample Response:
    ```json
@@ -79,34 +79,36 @@ The API returns a JSON response with the following structure:
 
 ## Deployment
 
-### Steps to Deploy on Render
+The API is deployed to Render. Below are the steps to deploy to Render:
+
+# Steps to Deploy on Render
 1. Create a new Web Service on Render.
 2. Connect your GitHub repository (`https://github.com/heisobims/HNGINTENSHIP-FASTAPI`).
 3. Specify the following settings:
    - Build Command: `pip install -r requirements.txt`
-   - Start Command: `uvicorn main:app --host 0.0.0.0 --port 10000`
+   - Start Command: `uvicorn mainFastApi:app --host 0.0.0.0 --port 8000`
 4. Deploy the application.
-5. Access the API at the provided Render URL (e.g., `https://hng-stage0-backend.onrender.com`).
+5. Access the API at the provided Render URL (e.g., `https://hngintenship-fastapi.onrender.com`).
 
 ---
 
 ## Documentation
 
 ### API Documentation
-- Endpoint: `GET https://hng-stage0-backend.onrender.com`
+- Endpoint: `GET https://hngintenship-fastapi.onrender.com`
 - Response Format:
   ```json
   {
-    "email": "string",
-    "current_datetime": "string (ISO 8601 format)",
-    "github_url": "string"
+    "email": "Heisobims@gmail.com",
+    "current_datetime": "2025-01-30T09:30:00Z",
+    "github_url": "https://github.com/heisobims/HNGINTENSHIP-FASTAPI"
   }
   ```
 
 ### Backlink
 
 - For more information about hiring Python developers, visit:
-  - [Python Developers](https://hng.tech/hire/python-developers)
+  - https://hng.tech/hire/python-developers
 
 ---
 
@@ -134,7 +136,7 @@ Before submission, ensure the API is thoroughly tested:
 ---
 
 ## Repository Information
-- GitHub Repository: [https://github.com/heisobims/HNGINTENSHIP-FASTAPI](https://github.com/heisobims/HNGINTENSHIP-FASTAPI)
+- GitHub Repository: https://github.com/heisobims/HNGINTENSHIP-FASTAPI
 - **Visibility**: Public
 
 ---
@@ -143,8 +145,7 @@ Before submission, ensure the API is thoroughly tested:
 For any questions or issues, please contact:
 - **Name**: Heisobims
 - **Email**: Heisobims@gmail.com
-- **Slack**: [Your Slack Username]
+- **Slack**: Heisobims
 
----
 
-Good luck with your submission! 🚀
+This Project is Licensed by Apache 2.0
